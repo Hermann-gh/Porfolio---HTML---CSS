@@ -166,6 +166,24 @@ body {
     color: white;
 }
 
+/* ========================= NAV LINKS ========================= */
+nav a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    padding: 10px 15px;
+    border: 1px solid transparent;
+    transition: all 0.35s ease;
+    position: relative;   
+}
+
+/* HOVER ESTILO BOTÓN (igual que index/sidebar) */
+nav a:hover {
+    background: black;
+    color: white;
+    transform: translateX(5px);
+}
+
 /* =========================================================
    GALERÍA DE PROYECTOS (GRID)
    ========================================================= */
